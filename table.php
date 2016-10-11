@@ -1,10 +1,10 @@
 <?php
 $people = array(
-    array(),
-    array(),
-    array(),
-    array(),
-    array()
+    array('Brittani' , 'Brundage' , 'Web and Info. Systems' ),
+    array('Amanda' , 'Byrne' , 'Business and Info. Systems' ),
+    array('Laurie' , 'Kline' , 'Business' ),
+    array('Marisa' , 'Oliveros' , 'Architecture' ),
+    array('Patrick' , 'Sambroski' , 'Biomedical Engineering' )
 );
 
 echo '<table border="4">';
