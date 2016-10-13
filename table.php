@@ -19,4 +19,19 @@ foreach( $people as $person )
     echo '</tr>';
 }
 echo '</table>';
+
+
+
+//array_column
+
+$person = array_column($people, 'First Name');
+print_r($people);
+
+
+
+
+
+
+
+
 ?>
