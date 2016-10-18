@@ -37,4 +37,28 @@ foreach (count_chars($counting, 1) as $i => $val) {
 echo (" <br />");
 echo (" <br />");
 
+//Explode
+
+
+$explode = 'uno, dos, tres ,cuatro';
+
+
+print_r(explode(',', $explode, -1));
+
+echo (" <br />");
+echo (" <br />");
+
+
+//Implode
+
+
+$name = array('firstname', 'lastname');
+$implode = implode(" , ", $name);
+
+echo $implode; 
+
+
+echo (" <br />");
+echo (" <br />");
+
 ?>
