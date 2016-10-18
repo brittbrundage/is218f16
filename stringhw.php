@@ -67,7 +67,30 @@ $entities = "Brittani <b>'Bella'</b> Brundage";
 
 echo htmlentities($entities);
 
+echo (" <br />");
+echo (" <br />");
 
 
+//HTML Special Chars Deplode
+
+$special = "<p>this -&gt; &quot;</p>";
+
+echo htmlspecialchars_decode($special);
+
+
+echo (" <br />");
+echo (" <br />");
+
+//MD5
+
+$apple = 'apple';
+
+if (md5($apple) === '1f3870be274f6c49b3e31a0c6728957f') {
+    echo "Would you like a green or red apple?";
+}
+
+
+echo (" <br />");
+echo (" <br />");
 
 ?>
