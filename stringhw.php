@@ -112,6 +112,13 @@ echo (" <br />");
 echo (" <br />");
 
 
+//String Split
+
+print_r(str_split("Brittani"));
+
+echo (" <br />");
+echo (" <br />");
+
 
 
 ?>
