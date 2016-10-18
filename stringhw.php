@@ -102,4 +102,16 @@ echo rtrim($trim,"Brundage");
 
 echo (" <br />");
 echo (" <br />");
+
+//String Replace
+
+echo str_replace("world","Brittani","Hello world!");
+
+
+echo (" <br />");
+echo (" <br />");
+
+
+
+
 ?>
