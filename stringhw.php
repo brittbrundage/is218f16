@@ -93,4 +93,13 @@ if (md5($apple) === '1f3870be274f6c49b3e31a0c6728957f') {
 echo (" <br />");
 echo (" <br />");
 
+//R Trim
+
+
+$trim = "Brittani Brundage";
+echo $trim . "<br>";
+echo rtrim($trim,"Brundage");
+
+echo (" <br />");
+echo (" <br />");
 ?>
