@@ -61,4 +61,13 @@ echo $implode;
 echo (" <br />");
 echo (" <br />");
 
+//HTML Entities
+
+$entities = "Brittani <b>'Bella'</b> Brundage";
+
+echo htmlentities($entities);
+
+
+
+
 ?>
