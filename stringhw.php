@@ -119,6 +119,24 @@ print_r(str_split("Brittani"));
 echo (" <br />");
 echo (" <br />");
 
+//String Length
 
+$britt = 'brittani';
+echo strlen($britt);
+
+echo (" <br />");
+echo (" <br />");
+
+//STRpos
+
+echo strpos("I love dogs, I love dogs too!","dogs");
+
+echo (" <br />");
+echo (" <br />");
+
+//Strip Tags
+
+$text = '<p>Testing.</p><!-- Comment --> <a href="#fragment">Blah Blah</a>';
+echo strip_tags($text);
 
 ?>
