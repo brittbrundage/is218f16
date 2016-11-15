@@ -77,5 +77,20 @@ echo "<br>";
 $newvar = unserialize($string);
 print_r($newvar);
 
+echo "<br><br>";
+
+//Compressing Strings
+
+$string = "You've got to take the good with the bad, smile with the sad, love what you've got, and remember what you had. Always forgive, but never forget. Learn from mistakes, but never regret.";
+$compressed = gzcompress($string);
+echo "Original size: ". strlen($string)."<br>";
+echo "Compressed size: ". strlen($compressed)."<br>";
+$original = gzuncompress($compressed);
+
+echo "<br><br>";
+
+
+
+
 
 ?>
