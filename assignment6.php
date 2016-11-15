@@ -89,6 +89,16 @@ $original = gzuncompress($compressed);
 
 echo "<br><br>";
 
+//Register Shutdown Function
+
+$start_time = microtime(true);
+register_shutdown_function('my_shutdown');
+
+function my_shutdown() {
+	global $start_time;
+	echo "Execution took: ".(microtime(true) - $start_time)." seconds.";
+}
+
 
 
 
