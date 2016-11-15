@@ -47,8 +47,8 @@ echo "<br>";
 echo "System time: ".
     ($data['ru_stime.tv_sec'] +
     $data['ru_stime.tv_usec'] / 1000000);
-echo "<br>";
-echo "<br>";
+echo "<br><br>";
+
 
 //Magic Constants
 
@@ -60,6 +60,13 @@ function my_debug($msg, $line) {
 }
 
 //Generating Unique ID
+
+echo uniqid('foo_');
+echo "<br>";
+echo uniqid('',true);
+echo "<br>";
+echo uniqid('bar_', true);
+echo "<br><br>";
 
 
 ?>
