@@ -11,11 +11,15 @@ function foo () {
 	}
 }
 foo();
-foo('hello');
-foo('hi', 'hey', 'hello');
+foo('hello<br>');
+foo('hi', 'hey', 'hello<br><br>');
 
+//Glob 
 
-
+$files = glob.('../images/a*.jpg');
+$files = array_map('realpath',$files);
+print_r($files);
+echo "Glob Function<br><br>";
 
 
 
