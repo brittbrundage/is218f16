@@ -1,4 +1,8 @@
 <?php
 
+echo "Super Globals";
+
+
+
 
 ?>
